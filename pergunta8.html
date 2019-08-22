@@ -3,10 +3,10 @@
 <head>
 <script>
 function mostratitulo(){
-return document.getElementsByTagName('title')[0]
+var t = document.getElementsByTagName('title')[0].text; return t; 
 
 }
-mostratitulo();
+alert(mostratitulo());
 
 </script>
 </head>
