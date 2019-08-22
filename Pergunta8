@@ -1,0 +1,15 @@
+<html>
+<title>Pergunta8</title>
+<head>
+<script>
+function mostratitulo(){
+return document.getElementsByTagName('title')[0]
+
+}
+mostratitulo();
+
+</script>
+</head>
+<body>
+<body>
+</html>
